@@ -1,32 +1,31 @@
 # Expense Tracker with Data Analysis
 
-An intermediate-level Python project that helps users track their expenses, categorize them, and analyze spending habits using visualizations and summaries. This project showcases skills in data manipulation, file handling, and visualization.
+An intermediate-level Python project designed to help users track their expenses, categorize spending, and analyze financial habits with visualizations and summaries. This project demonstrates practical skills in Python for file handling, data manipulation, and data visualization.
 
 ---
 
 ## Features
 
 - **Add Expenses**: Record daily expenses, including date, description, amount, and category.
-- **View Expenses**: Display all recorded expenses in a neat table format.
-- **Analyze Spending**: Generate reports for spending summaries and visualize data with charts.
-- **Data Storage**: Save expenses in a CSV file for persistence.
-- **Visualization**: Create bar charts or pie charts to represent spending patterns.
+- **View Expenses**: Display all recorded expenses in a neat, tabular format.
+- **Analyze Spending**: Generate summaries and visualizations of spending by category or over time.
+- **Persistent Data Storage**: Save expenses in a CSV file for future use.
+- **Visualizations**: Bar and line charts to represent spending patterns and trends.
 
 ---
 
 ## Requirements
 
-- Python 3.8+
-- Libraries:
-  - `pandas`
-  - `matplotlib`
-  - `tabulate`
+- **Python Version**: 3.8+
+- **Libraries**:
+  - `pandas`: For data manipulation and analysis.
+  - `matplotlib`: For visualizations.
 
-To install all dependencies, run:
+Install the required libraries using:
 
-```bash
+````bash
 pip install -r requirements.txt
-```
+
 
 ---
 
@@ -35,7 +34,8 @@ pip install -r requirements.txt
 1. Clone the repository:
    ```bash
    git clone https://github.com/Zachary2002-spec/expense-tracker.git
-   ```
+````
+
 2. Navigate to the project directory:
    ```bash
    cd expense-tracker

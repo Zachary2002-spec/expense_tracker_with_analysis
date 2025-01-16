@@ -1,7 +1,6 @@
 from tracker import add_expense, view_expenses
 from analysis import analyze_expenses
 
-
 def main():
     print("Welcome to Expense Tracker!")
     while True:
@@ -10,7 +9,7 @@ def main():
         print("2. View Expenses")
         print("3. Analyze Expenses")
         print("4. Exit")
-        choice = input("Choose an option: ")
+        choice = input("Choose an option: ").strip()
 
         if choice == "1":
             add_expense()
