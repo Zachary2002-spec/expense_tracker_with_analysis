@@ -46,7 +46,8 @@ def analyze_expenses():
     plt.xticks(rotation=45)
     plt.grid(axis="y", linestyle="--", alpha=0.7)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("charts/spending_by_category.png")  # Save the chart
+    print("Saved 'Spending by Category' chart as 'charts/spending_by_category.png'.")
 
     # Visualization - Time
     plt.figure(figsize=(10, 6))
@@ -56,4 +57,9 @@ def analyze_expenses():
     plt.ylabel("Total Amount Spent", fontsize=12)
     plt.grid(axis="both", linestyle="--", alpha=0.7)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("charts/spending_over_time.png")  # Save the chart
+    print("Saved 'Spending Over Time' chart as 'charts/spending_over_time.png'.")
+
+# Example usage
+if __name__ == "__main__":
+    analyze_expenses()
